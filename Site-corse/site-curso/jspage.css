@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #13444d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #16181b;
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-right: 90px;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #ffa02e;
+}
+
+.container {
+    margin: 30px auto;
+}
+
+.aula {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.Curso_Titulo {
+    cursor: default;
+    color: #ffa02e;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.sobre-curso img:hover {
+
+    background-color: #ffa02e;
+    border-radius: 50%;
+    border: solid 2px;
+    color: #ffa02e;
+    padding: 1px;
+
+}
+
+.videoaula {
+    border-radius: 10px;
+    box-shadow: #ffa02e 5px 5px, #ffa12ead 10px 10px, #ffa12e8e 15px 15px, #ff8c006c 20px 20px 25px 25px;
+}
+
+
+/* teste */
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.efeito {
+
+    margin-bottom: 20px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    color: rgb(255, 46, 46);
+
+}
+
+.image-ef {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.overlay i {
+    color: #fff;
+    font-size: 36px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-ef:hover {
+    background-color: #ffa02e;
+    border-radius: 50%;
+    border: solid 2px;
+    color: #ffa02e;
+    padding: 1px;
+
+}
+
+.efeito:hover .image-ef {
+    transform: scale(1.1);
+}
+
+/* Efeito borda colorida ao passar mouse na foto*/
+.efeito:hover .overlay {
+    opacity: 1;
+    border: 5px solid #37FF8B;
+    border-radius: 50%;
+
+}
+
+/* xx Fim xx*/
+
+.efeito:hover .overlay i {
+    transform: scale(1.5);
+}
+
+/* Unused
+        .sobre {
+            position: relative;
+            text-decoration: none;
+        }
+        */
+
+.abtcourse {
+    margin-bottom: 20px;
+    color: #ffa02e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.t1 {
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    text-decoration: none;
+    color: #ffa02e;
+}
+
+.t2 {
+    color: white;
+}
+
+
+/* default button style */
+.bt button {
+    margin-left: 40px;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* button styling */
+.button_ {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #37FF8B;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+/* this is the text, when you hover on button */
+.hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+}
+
+/* hover */
+.button_:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+/* Final button styling*/
+
+.ig-ico {
+    text-align: center;
+    height: 60px;
+    width: 60px;;
+}

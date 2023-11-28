@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Header predef*/
+header {
+    background-color: #13444d;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+}
+
+body {
+    background-color: #252526;
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-right: 90px;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #ffa02e;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px 70px;
+    flex-wrap: wrap;
+}
+
+/* Curso 1 - HTML e CSS */ 
+.curso1 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+}
+
+.t1 {
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+}
+
+.c1-img {
+    height: 200px;
+    width: 210px;
+}
+
+.bt1 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt1 a{
+    font-family: 'Montserrat', sans-serif; 
+    text-decoration: none;
+    color: black;
+
+}
+
+.bt1 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 2 - Javascript */ 
+.curso2 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+}
+
+.t2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.c2-img {
+    height: 200px;
+    width: 210px;
+}
+
+.bt2 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt2 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+.bt2 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 3 - MySQL */
+.curso3 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+}
+
+.t3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.c3-img {
+    height: 190px;
+    width: 190px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.bt3 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt3 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+.bt3 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 4 - Cloud */ 
+.curso4 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+}
+
+.t4 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.c4-img {
+    height: 200px;
+    width: 210px;
+}
+
+.bt4 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt4 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+.bt4 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 6 - Canva */
+.curso6 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+}
+
+.t6 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.c6-img {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.bt6 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt6 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+.bt6 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 7 - Figma */ 
+.curso7 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+}
+
+.t7 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.c7-img {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.bt7 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt7 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.bt7 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 8 - Inglês */
+.curso8 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+}
+
+.t8 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.c8-img {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.bt8 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt8 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.bt8 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 9 - Git e Github*/
+.curso9 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+    margin-bottom: 60px;
+}
+
+.t9 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.c9-img {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.bt9 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt9 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.bt9 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 10 - Lógica de Programação */
+.curso10 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+    margin-bottom: 60px;
+}
+
+.t10 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.c10-img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 9px;
+}
+
+.bt10 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt10 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.bt10 a:hover {
+    color: #ffa02e;
+}
+
+/* Curso 11 - Python */
+.curso11 {
+    display: flex;
+    background-color: #13444d;
+    border-radius: 10px;
+    height: 310px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+    box-shadow: 0px 13px 17px 0px rgba(0, 0, 0, 0.52);
+    margin-bottom: 60px;
+}
+
+.t11 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.c11-img {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.bt11 {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.bt11 a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.bt11 a:hover {
+    color: #ffa02e;
+}
+
+/* Botão AVA */
+.bt button {
+    margin-left: 40px;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+.button_ {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #37FF8B;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    cursor: default;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+.hover-text {
+    cursor: default;
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.button_:hover .hover-text {
+    cursor: default;
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+}
+/* Final button styling*/
+
+/* Login Button */ 
+.Btn {
+    --black: #000000;
+    --ch-black: #141414;
+    --eer-black: #1b1b1b;
+    --night-rider: #2e2e2e;
+    --white: #ffffff;
+    --af-white: #f3f3f3;
+    --ch-white: #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: var(--night-rider);
+}
+
+.sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign svg {
+    width: 17px;
+}
+
+.sign svg path {
+    fill: var(--af-white);
+}
+
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: var(--af-white);
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+
+.Btn:hover {
+    width: 140px;
+    border-radius: 5px;
+    transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+    width: 30%;
+    transition-duration: .5s;
+    padding-left: 20px;
+}
+
+.Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+}
+
+.Btn:active {
+    transform: translate(2px, 2px);
+}
+
+/**/
+.txt {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text:hover {
+    color: #37FF8B;
+}

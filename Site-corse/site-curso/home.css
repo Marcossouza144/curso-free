@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #13444d;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #ffa02e;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.desc2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.desc3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.go {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: #ffa02e;
+}
+
+.desc, .desc2, .desc3 {
+  line-height: 25px;
+    color: white;
+}
+
+strong {
+    color: #ffa02e;
+}
+
+/* Novo botão start */ 
+
+.cssbuttons-io-button {
+  background: #ffa02e;
+  color: #13444d;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #ffa02e;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: #13444d;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #13444d;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #ffa02e;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+/**/
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    color: #ffa02e;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 25px;
+    letter-spacing: 0px;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-200%);
+}
+
+.content2 span {
+    color: #ffa02e;
+    font-family: 'Montserrat', sans-serif;
+    width: 30px;
+        display: inline-block;
+        letter-spacing: normal;
+}
